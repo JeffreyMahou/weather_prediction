@@ -252,9 +252,9 @@ class Solution():
 
 S = Solution()
 S.prepare_features(use_features=True)
-S.train(load=True)
+S.train(load=False)
 S.test()
 S.plot_data()
-# S.arima()
-# S.plot_arima()
+S.arima()
+S.plot_arima()
 
